@@ -15,6 +15,14 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    /* Path mapping */
+    "baseUrl": "src",
+    "paths": {
+      "pages/*": ["pages/*"],
+      "components/*": ["components/*"],
+      "firebaseApp/*": ["firebaseApp/*"]
+    },
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
